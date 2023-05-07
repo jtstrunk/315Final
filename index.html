@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omicron Media Unlimited</title>
+    <link rel="shortcut icon" type="image/x-icon" href="log.ico" />
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="jquery.vide.min.js"></script>
+    <script type="text/javascript" src="jquery.jcarousel.js"></script>
+</head>
+<body>
+    
+    <nav>
+        <div>
+            <img id="logo" src="logo.png">
+        </div>
+        <div>
+            <button id="HomeBTN">Home</button>
+            <button id="AboutBTN">About Us</button>
+            <button id="EventsBTN">Events</button>
+            <button id="ProjectsTN">Projects</button>
+            <button id="ReviewsBTN">Reviews</button>
+            <button id="ContactBTN">Contact</button>
+        </div>
+
+    </nav>
+
+    <div>
+        <hr>
+    </div>
+
+    <div class="jcarousel Hide">
+        <ul>
+            <li>...</li>
+            <li>...</li>
+        </ul>
+    </div>
+
+    <div id="Home">
+
+    </div>
+
+    <div id="About" class="Hide">
+
+        <div id="history">
+            <h3>Our History</h3>
+            <p>
+                The media event company, Omicron Media Unlimited, was founded in 2005 by John Smith, a seasoned event planner with years of experience in the industry. Initially, 
+                the company focused on organizing small-scale events such as corporate meetings and product launches, with a focus on delivering high-quality service and attention to detail.
+            </p>
+            <p>
+                Over the years, the company expanded its services and began organizing larger and more complex events such as conferences, festivals, and concerts. In 2010, 
+                the company hired a marketing team and started investing in online and offline advertising to promote their events, resulting in increased attendance and revenue.
+            </p>
+            <p>
+                In 2015, the company went through a major restructuring, with John Smith stepping down as CEO and handing over the reins to his daughter, Sarah Smith. 
+                Under Sarah's leadership, the company continued to expand and innovate, leveraging new technologies such as virtual and hybrid events to reach a wider audience.
+            </p>
+            <p>
+                Today, Omicron Media Unlimited is one of the leading media event companies in the region, with a reputation for delivering exceptional events that exceed expectations. 
+                The company employs over 50 staff members and has organized hundreds of successful events for clients across various industries, from tech startups to Fortune 500 companies.
+            </p>
+        </div>
+
+        <h3 id="l">Our Staff</h3>
+        <div id="staff">
+            
+            <div class="empcard">
+                <img src="Sarah.png" class="emp">
+                <h3>Sarah Johnson</h3>
+                <h3>Event Planner</h3>
+            </div>
+    
+            <div class="empcard">
+                <img src="Kevin.png" class="emp">
+                <h3>Kevin Lee</h3>
+                <h3>Marketing Manager</h3>
+            </div>
+    
+            <div class="empcard">
+                <img src="Rachel.png" class="emp">
+                <h3>Rachel Wong</h3>
+                <h3>Graphic Designer</h3>
+            </div>
+            <div class="empcard">
+                <img src="Alex.png" class="emp">
+                <h3>Alex Chen</h3>
+                <h3>Audiovisual Technician</h3>
+            </div>
+            <div class="empcard">
+                <img src="Lisa.png" class="emp">
+                <h3>Lisa Kim</h3>
+                <h3>Social Media Coordinator</h3>
+    
+            </div>
+            <div class="empcard">
+                <img src="Jason.png" class="emp">
+                <h3>Jason Rodriguez</h3>
+                <h3>Sales Representative</h3>
+            </div>
+            <div class="empcard">
+                <img src="John.png" class="emp">
+                <h3>John Smith</h3>
+                <h3>Event Coordinator</h3>
+            </div>
+            <div class="empcard">
+                <img src="Michael.png" class="emp">
+                <h3>Michael Patel</h3>
+                <h3>Sponsorship Coordinator</h3>
+            </div>
+            <div class="empcard">
+                <img src="Samantha.png" class="emp">
+                <h3>Samantha Brown</h3>
+                <h3>Public Relations Manager</h3>
+            </div>
+        </div>
+    </div>
+
+    <div id="Events" data-vide-bg="food.mp4" class="Hide">
+        <div id="video">
+            <div id="nextEvent">
+                <h1>Our Next Event</h1>
+                <h2>Food and Wine Festival 2023</h2>
+                <div id="foodfest">
+                    <img src="food.png" id="food">
+                    <p>
+                        A three-day food and wine festival celebrating the best in local cuisine and wine, held at a scenic outdoor venue. 
+                        The festival will feature gourmet food and wine tastings, cooking demonstrations, live music, and interactive culinary experiences.
+                        Attendees can sample dishes from some of the top chefs in the region and taste wines from local vineyards. 
+                        Cooking demonstrations will be held throughout the festival, giving attendees the opportunity to learn from renowned chefs and try their hand at preparing new dishes.
+                    </p>
+                </div>
+                <p>
+                    In addition to food and wine, the festival will offer interactive experiences such as wine and cheese pairing classes, cocktail workshops, 
+                    and chocolate tastings. There will also be live music performances from local bands and DJs. The festival is expected to draw food and wine enthusiasts from all over the region, 
+                    as well as industry professionals such as chefs, sommeliers, and wine makers. With a focus on local cuisine and wine, 
+                    the festival will celebrate the unique flavors and culture of the region, and offer attendees a memorable culinary experience.
+                </p>
+    
+            </div>
+            <section class="">
+                <h1>Countdown to Food and Wine Festival 2023</h1>
+                
+                <div id="timeBox">It is currently: <span id="currentTime"></span></div>
+                <div id="clock">      
+                   <figure>
+                      <span id="days">00</span>
+                      <figcaption>Days</figcaption>
+                   </figure>
+                   <figure>
+                      <span id="hours">00</span>
+                      <figcaption>Hours</figcaption>
+                   </figure>
+                   <figure>
+                      <span id="minutes">00</span>
+                      <figcaption>Minutes</figcaption>
+                   </figure>  
+                   <figure>
+                      <span id="seconds">00</span>
+                      <figcaption>Seconds</figcaption>
+                   </figure>         
+                </div>
+             </section>
+        </div>
+
+
+    </div>
+
+    <div id="Projects" class="Hide">
+        <div>
+            <article>
+                <table>
+                   <caption>Number of Events by Year</caption>
+                   <thead>
+                      <tr><td></td></tr>
+                   </thead>
+                   <tbody></tbody>
+                </table>
+             </article>
+        </div>
+        <span>Past Events</span>
+        <div id="pastProj">
+            
+            <div class="ProjCard">
+                <h4>TechCon 2018</h4>
+                <p>
+                    A two-day technology conference held at the city convention center, featuring keynote speakers, panel discussions, and workshops on the latest trends in the tech industry. 
+                    Attendees included tech enthusiasts, industry professionals, and entrepreneurs.
+                </p>
+                <img src="TechCon.png" class="ProjectPhoto">
+            </div>
+
+            <div class="ProjCard">
+                <h4>MusicFest 2019</h4>
+                <p>
+                    A three-day music festival held in a large outdoor venue, featuring popular musical acts from various genres, food and drink vendors, and interactive installations. 
+                    The event attracted music fans from all over the region with continued success in following years.
+                </p>
+                <img src="Music.png " class="ProjectPhoto">
+            </div>
+
+            <div class="ProjCard">
+                <h4>Fashion Week 2020</h4>
+                <p>
+                    A week-long fashion event held at a high-end shopping center, featuring runway shows, pop-up shops, and exclusive events for VIP guests. 
+                    The event showcased the latest collections from both established and up-and-coming designers.
+                </p>
+                <img src="Fasion.png" class="ProjectPhotoTall">
+            </div>
+
+            <div class="ProjCard">
+                <h4>LaunchPad 2020</h4>
+                <p>
+                    A product launch event for a new tech gadget, held at a popular tech store, featuring product demonstrations, hands-on exhibits, and giveaways. 
+                    The event generated buzz among tech enthusiasts and was covered by several media outlets.
+                </p>
+                <img src="Tech.png " class="ProjectPhotoTall">
+            </div>
+
+            <div class="ProjCard">
+                <h4>Green Expo 2021</h4>
+                <p>
+                    A two-day environmental sustainability conference held at a university campus, featuring keynote speakers, panel discussions, and 
+                    interactive exhibits showcasing the latest innovations in green technology. The event attracted students, researchers, and industry professionals.
+                </p>
+                <img src="Enviro.png" class="ProjectPhotoTall">
+            </div>
+
+            <div class="ProjCard">
+                <h4>FilmFest 2022</h4>
+                <p>
+                    A week-long film festival held at a historic theater, featuring screenings of independent and foreign films, Q&A sessions with filmmakers, and 
+                    networking events for industry professionals. The event drew film enthusiasts and industry insiders from all over the world.
+                </p>
+                <img src="Flim.png" class="ProjectPhotoTall">
+            </div>
+            
+        </div>
+
+
+    </div>
+
+    <div id="review" class="Hide">
+        <h2>Reviews from customers</h2>
+        <div class="card">
+            <div>
+                <span>Thoroughly Impressed</span>&nbsp;&nbsp;<span class="date">3/2/2023</span>&nbsp;&nbsp;&nbsp;&nbsp;<span>★★★★★</span>
+            </div>
+            <p>
+                I recently had the pleasure of attending an event organized by Omicron Media Unlimited, and I have to say, I was thoroughly impressed. From start to finish, 
+                the experience was seamless and well-executed, showcasing the expertise and attention to detail that Omicron Media Unlimited is known for.
+            </p>
+            <p>
+                One of the things that stood out to me was the level of personalization that Omicron Media Unlimited brought to the event. Every detail, 
+                from the decor to the menu to the entertainment, was tailored to the specific theme and objectives of the event, creating a cohesive and memorable experience for attendees. 
+                The team clearly put a lot of thought and effort into ensuring that everything was just right, and it paid off in spades.
+            </p>
+            <p>
+                In addition to the event itself, I was also impressed by the level of support and communication provided by Omicron Media Unlimited leading up to the event. 
+                They were always available to answer questions, provide updates, and make any necessary adjustments, which helped to alleviate any stress or uncertainty on our end.
+            </p>
+            <p>
+                Overall, I would highly recommend Omicron Media Unlimited to anyone looking for a top-notch media event company. 
+                Their expertise, attention to detail, and commitment to personalization truly set them apart, and I have no doubt that they will continue to excel in their field.
+            </p>
+        </div>
+
+        <div class="card">
+            <div>
+                <span>Friendly Staff</span>&nbsp;&nbsp;<span class="date">11/29/2022</span>&nbsp;&nbsp;&nbsp;&nbsp;<span>★★★★★</span>
+            </div>
+            <p>
+                I recently had the pleasure of attending an event organized by Omicron Media Unlimited and I must say that I was thoroughly impressed by their professionalism and 
+                attention to detail. From the moment I arrived, I was greeted by friendly staff who made me feel welcome and ensured that I knew where to go and what to expect.
+            </p>
+            <p>
+                The event itself was well-organized and executed flawlessly. The program was well-paced, with a perfect balance of speakers, presentations, 
+                and networking opportunities. The speakers were knowledgeable and engaging, and the topics covered were relevant and informative.
+            </p>
+            <p>
+                What really stood out to me was the level of detail that went into the planning and execution of the event. Every aspect of the event, from the lighting and 
+                sound to the food and beverage service, was carefully thought out and expertly executed. The attention to detail and the commitment to excellence was truly remarkable.
+            </p>
+            <p>
+                Overall, I would highly recommend this Omicron Media Unlimited to anyone looking to host a successful and memorable event. 
+                They have a talented and dedicated team of professionals who are passionate about what they do and committed to delivering exceptional results. 
+                If you want to ensure that your event is a success, look no further than this Omicron Media Unlimited.
+            </p>
+        </div>
+
+        <div class="card">
+            <div>
+                <span>Lack of Organization</span>&nbsp;&nbsp;<span class="date">12/12/2022</span>&nbsp;&nbsp;&nbsp;&nbsp;<span>★★☆☆☆</span>
+            </div>
+            <p>
+                I recently attended an event organized by Omicron Media Unlimited and I have to say, I was quite disappointed with the overall experience. 
+                While there were some aspects of the event that were enjoyable, such as the food and drinks provided, there were also some significant shortcomings that detracted from the overall experience.
+            </p>
+                
+            <p>
+                One major issue was the lack of organization and communication from the event staff. There were long lines and confusion at registration, 
+                and it was difficult to get clear answers to questions throughout the event. Additionally, the event seemed understaffed, 
+                with long wait times for services like coat check and restroom facilities.
+            </p>
+                
+            <p>
+                Another issue was the lack of variety in the entertainment and activities provided. While there were a few interesting performances and exhibits, 
+                overall the event felt somewhat repetitive and uninspired.
+            <p>
+                Overall, while there were some positive aspects to Omicron Media Unlimited's event, the significant issues with organization and 
+                lack of variety in the programming make it difficult for me to recommend them.
+            </p>
+        </div>
+
+        <div class="card">
+            <div>
+                <span>Enjoyable Experience</span>&nbsp;&nbsp;<span class="date">1/7/2023</span>&nbsp;&nbsp;&nbsp;&nbsp;<span>★★★☆☆</span>
+            </div>
+            <p>
+                I recently attended an event organized by Omicron Media Unlimited and while there were a few hiccups along the way, 
+                overall it was an enjoyable experience. The food and drinks provided were excellent, and the event had a fun and lively atmosphere.
+            </p>
+
+            <p>
+                While there were some organizational issues, such as long lines and some confusion at registration, the staff were friendly and did their best to keep things moving smoothly. 
+                Additionally, the event had a good mix of entertainment and activities, with a few standout performances and exhibits.
+            </p>
+
+            <p>
+                Overall, I had a good time at the event and appreciate the effort put in by the media event company to make it a fun and engaging experience. 
+                While there is room for improvement, I would still recommend Omicron Media Unlimited to others
+            </p>
+
+        </div>
+
+        <div class="card">
+            <div>
+                <span>Friendly Staff</span>&nbsp;&nbsp;<span class="date">11/29/2022</span>&nbsp;&nbsp;&nbsp;&nbsp;<span>★★★★★</span>
+            </div>
+            <p>
+               
+            <p>
+                
+            </p>
+            <p>
+                
+            </p>
+            <p>
+
+            </p>
+        </div>
+
+        <div class="card">
+            <div>
+                <span>Friendly Staff</span>&nbsp;&nbsp;<span class="date">11/29/2022</span>&nbsp;&nbsp;&nbsp;&nbsp;<span>★★★★★</span>
+            </div>
+            <p>
+               
+            <p>
+                
+            </p>
+            <p>
+                
+            </p>
+            <p>
+
+            </p>
+        </div>
+
+
+    </div>
+
+    <div id="contact" class="Hide">
+        <h2>Contact Us</h2>
+        <h3>Let us get back to you</h3>
+        <form>
+            <input type="text" placeholder="Name">
+            <input type="text" placeholder="Email">
+            <input type="text" placeholder="Phone Number">
+            <br>
+            <input type="text" placeholder="Reason for Contact" id="reason">
+        </form>
+
+        <h3>Manually Contact Us</h3>
+        <h4>Address</h4>
+        <p>1234 North Avenue, Somewhere, US 12345</p>
+        <h4>Email</h4>
+        <p>omicron@unlimited.com</p>
+        <h4>Contact Point</h4>
+        <p>Jacklin Jaric, Senior Media Specialis</p>
+
+        
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
