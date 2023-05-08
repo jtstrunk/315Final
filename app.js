@@ -125,3 +125,63 @@ function countdown(){
 }
 
 setInterval(countdown, 1000);
+
+
+let homeBTN = document.querySelector("#HomeBTN");
+let aboutBTN = document.querySelector("#AboutBTN");
+let eventsBTN = document.querySelector("#EventsBTN");
+let projectsBTN = document.querySelector("#ProjectsBTN");
+let reviewsBTN = document.querySelector("#ReviewsBTN");
+let contactBTN = document.querySelector("#ContactBTN");
+
+let Home = document.querySelector("#Home");
+let About = document.querySelector("#About");
+let Events = document.querySelector("#Events");
+let Projects = document.querySelector("#Projects");
+let Review = document.querySelector("#review");
+let Contact = document.querySelector("#contact");
+
+let buttons = document.querySelectorAll(".Header")
+
+
+homeBTN.addEventListener('click', function(){
+    for(let button of buttons){
+        button.classList.add("Hide");
+    }
+    Home.classList.remove("Hide");
+})
+
+aboutBTN.addEventListener('click', function(){
+    for(let button of buttons){
+        button.classList.add("Hide");
+    }
+    About.classList.remove("Hide");
+})
+
+eventsBTN.addEventListener('click', function(){
+    for(let button of buttons){
+        button.classList.add("Hide");
+    }
+    Events.classList.remove("Hide");
+})
+
+projectsBTN.addEventListener('click', function(){
+    for(let button of buttons){
+        button.classList.add("Hide");
+    }
+    Projects.classList.remove("Hide");
+})
+
+reviewsBTN.addEventListener('click', function(){
+    for(let button of buttons){
+        button.classList.add("Hide");
+    }
+    Review.classList.remove("Hide");
+})
+
+contactBTN.addEventListener('click', function(){
+    for(let button of buttons){
+        button.classList.add("Hide");
+    }
+    Contact.classList.remove("Hide");
+})
